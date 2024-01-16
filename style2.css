@@ -1,56 +1,57 @@
 .heading {
-    text-align: center;
+	text-align: center;
 }
 
 .container {
-    border: 2px solid;
-    display: grid;
-    grid-template-areas: "nav nav nav nav nav"
-        "side article article article article"
-        "footer footer footer footer footer";
+	border: 2px solid;
+	display: grid;
+	grid-template-areas:
+		"nav nav nav nav nav"
+		"side article article article article"
+		"footer footer footer footer footer";
 }
 
 .item {
-    border: 2px solid;
-    text-align: center;
+	border: 2px solid;
+	text-align: center;
 }
 
-.item1{
-    grid-area: nav;
-    background-color: red;
+.item1 {
+	grid-area: nav;
+	background-color: red;
 }
 
-.item2{
-    grid-area: side;
-    background-color: rgb(255, 173, 21);
+.item2 {
+	grid-area: side;
+	background-color: rgb(255, 173, 21);
 }
 
-.item3{
-    grid-area: article;
-    background-color: yellow;
+.item3 {
+	grid-area: article;
+	background-color: yellow;
 }
 
-.item4{
-    grid-area: footer;
-    background-color: green;
+.item4 {
+	grid-area: footer;
+	background-color: green;
 }
 
-.item5{
-    background-color: blue;
+.item5 {
+	background-color: blue;
 }
 
-.item6{
-    background-color: rgb(149, 0, 255);
+.item6 {
+	background-color: rgb(149, 0, 255);
 }
 
-.item7{
-    background-color: violet;
+.item7 {
+	background-color: violet;
 }
 
-.item8{
-    background-color: rgb(255, 123, 0);
+.item8 {
+	background-color: rgb(255, 123, 0);
 }
 
-.item9{
-    background-color: rgb(5, 171, 201);
+.item9 {
+	background-color: rgb(5, 171, 201);
 }
